@@ -1,21 +1,22 @@
 import React from "react";
-
-
 import Footer from "./footer.jsx";
-
 import Cta from "./cta.jsx";
+import NavBar from "./navbar.jsx";
+import Cards from "./Cards.jsx";
 
-
-//create your first component
 const Home = () => {
 	return (
 		<div>
-
-			<Footer />
-
+    <NavBar></NavBar>
 			<Cta />
-
-		</div>
+			<div className="container d-flex">
+				<Cards></Cards>
+				<Cards></Cards>
+				<Cards></Cards>
+				<Cards></Cards>
+			</div>
+     <Footer />
+    </div>
 	);
 };
 
