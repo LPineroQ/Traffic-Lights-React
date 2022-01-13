@@ -1,22 +1,22 @@
 import React from "react";
-
-//include images into your bundle
+import Footer from "./footer.jsx";
+import Cta from "./cta.jsx";
 import NavBar from "./navbar.jsx";
 import Cards from "./Cards.jsx";
 
-//create your first component
 const Home = () => {
 	return (
 		<div>
-			<NavBar></NavBar>
-			Hola
+    <NavBar></NavBar>
+			<Cta />
 			<div className="container d-flex">
 				<Cards></Cards>
 				<Cards></Cards>
 				<Cards></Cards>
 				<Cards></Cards>
 			</div>
-		</div>
+     <Footer />
+    </div>
 	);
 };
 
