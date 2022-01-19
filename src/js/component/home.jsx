@@ -4,17 +4,6 @@ import Cta from "./cta.jsx";
 import NavBar from "./navbar.jsx";
 import Cards from "./Cards.jsx";
 
-<<<<<<< HEAD
-//include images into your bundle
-import TrafficLights from "./trafficLights.jsx";
-
-//create your first component
-const Home = () => {
-	return (
-		<div>
-			<TrafficLights></TrafficLights>
-		</div>
-=======
 const Home = () => {
 	return (
 		<div>
@@ -28,7 +17,6 @@ const Home = () => {
 			</div>
      <Footer />
     </div>
->>>>>>> cd32d7fe14dd452532fa2f9d9bc9dcbb95cbd0d8
 	);
 };
 
