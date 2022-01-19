@@ -1,0 +1,47 @@
+h1{
+    color: red;
+}
+
+.Traffic-lights{
+    background-color: black;
+    width: 150px;
+    height: 350px;
+    border-radius: 5%;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+
+.Light1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.Light2{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 125px;
+    left: 25px;
+}
+
+.Light3{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 225px;
+    left: 25px;
+}
+
+.glow{
+    box-shadow: 5px 8px 40px 2px #0ff
+}
